@@ -1,6 +1,4 @@
-/** @format */
 
-/* ! link font  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Peralta&family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
@@ -37,7 +35,7 @@ body {
     0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
 }
 
-/* ? header-container design starts here  */
+
 header {
   background: url(https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=2928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% center;
   background-size: cover;
@@ -99,7 +97,7 @@ nav ul li .btn-orange {
   font-weight: 400;
 }
 
-/* *text box  */
+
 
 .text-box {
   text-align: start;
@@ -138,10 +136,7 @@ nav ul li .btn-orange {
   margin-top: 26px;
 }
 
-/* ? header-container design end here  */
 
-/* todo main-container starts here  */
-/* ? category-container starts here  */
 .category-container {
   display: flex;
   flex-direction: column;
@@ -262,9 +257,7 @@ nav ul li .btn-orange {
   height: 125.333px;
   z-index: 1000;
 }
-/* ? category-container end here  */
 
-/* ? topSelling-container start here  */
 .topSelling-container {
   text-align: center;
 }
@@ -344,9 +337,7 @@ nav ul li .btn-orange {
   margin-left: 26.6px;
   gap: 18.62px;
 }
-/* ? topSelling-container end here  */
 
-/* ? easySteps-container start here  */
 .easySteps-container {
   display: flex;
   flex-wrap: wrap;
@@ -404,7 +395,7 @@ nav ul li .btn-orange {
   top: 236.6px;
   right: 100.7px;
 }
-/* * small card start */
+
 .big-card {
   position: relative;
   top: -108.4px;
@@ -496,9 +487,7 @@ nav ul li .btn-orange {
   margin-right: 29.96px;
   margin-bottom: 38px;
 }
-/* * small card end */
 
-/* * small card start */
 .small-card {
   display: flex;
   position: relative;
@@ -556,10 +545,7 @@ nav ul li .btn-orange {
   margin-left: 29.39px;
   margin-right: 12px;
 }
-/* * small card end */
-/* ? easySteps-container end here  */
 
-/* ? choose-container start here  */
 .text-choose {
   display: flex;
   flex-direction: column;
@@ -645,9 +631,7 @@ nav ul li .btn-orange {
 .choose-card > .orange-circle {
   background-color: #f15a2b;
 }
-/* ? choose-container end here  */
 
-/* ? rectangle-container start here  */
 .rectangle-content {
   position: relative;
   display: flex;
@@ -725,10 +709,7 @@ nav ul li .btn-orange {
   right: -33px;
 }
 
-/* ? rectangle-container end here  */
-/* todo main-container end here  */
 
-/* todo footer-container starts here  */
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -821,9 +802,7 @@ nav ul li .btn-orange {
   font-weight: 500;
   line-height: 124.5%;
 }
-/* todo footer-container end here  */
 
-/* todo copy rights starts here  */
 .copyRights {
   color: var(--textclr, #5e6282);
   font-size: 18.622px;
@@ -831,9 +810,7 @@ nav ul li .btn-orange {
   line-height: 124.5%;
   text-align: center;
 }
-/* todo copy rights end here  */
 
-/* ! media query for responsive width in 480px  */
 @media (max-width: 480px) {
   html,
   body {
@@ -1008,7 +985,6 @@ nav ul li .btn-orange {
   }
 }
 
-/* ! media query for responsive width in 480px to 900px  */
 
 @media (min-width: 480px) and (max-width: 912px) {
   html,
@@ -1118,7 +1094,7 @@ nav ul li .btn-orange {
   }
 }
 
-/* ! media query for responsive width in 900px to 1480px  */
+
 
 @media (min-width: 913px) and (max-width: 1480px) {
   html,
@@ -1166,7 +1142,7 @@ nav ul li .btn-orange {
   }
 }
 
-/* ! media query for navigation bar */
+
 
 @media all and (max-width: 1390px) {
   .nav-list ul li {
@@ -1185,7 +1161,7 @@ nav ul li .btn-orange {
   }
 }
 
-/* ! media query for responsive footer  */
+
 
 @media screen and (max-width: 777px) {
   .table-content {
